@@ -32,19 +32,19 @@
   .footer .share a:hover{
     background-color: #e74e4e;
   }
-  .footer .links{
+  .footer .link {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
   }
-  .footer .links a{
+  .footer .link a{
     background-color: #bef0f5;
     padding: 0.7rem 2rem;
     color: #050505;
     font-size: 2rem;
   }
-  .footer .links a:hover{
+  .footer .link a:hover{
     background-color: #e74e4e;
     opacity: 0.7;
   }
