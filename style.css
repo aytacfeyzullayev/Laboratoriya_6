@@ -40,3 +40,55 @@ background-color: transparent;
     display: flex;
     align-items: center;
 }
+
+.footer{
+    background-color: #cce0e0;
+    text-align: center;
+  }
+  .footer .search{
+    display: flex;
+    justify-content: center;
+  }
+  .footer .search-input{
+    width: 30rem;
+  }
+  .footer .search .btn-primary{
+    background-color: aqua;
+    padding: 3rem 2rem;
+    margin: 1rem;
+  }
+  .footer .share{
+    padding: 2rem 3rem;
+  }
+  .footer .share a {
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    border: var(--border);
+    border-radius: 50%;
+    margin: 0.3rem;
+
+  }
+  .footer .share a:hover{
+    background-color: #e74e4e;
+  }
+  .footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer .links a{
+    background-color: #bef0f5;
+    padding: 0.7rem 2rem;
+    color: #050505;
+    font-size: 2rem;
+  }
+  .footer .links a:hover{
+    background-color: #e74e4e;
+    opacity: 0.7;
+  }
+  
+
+
